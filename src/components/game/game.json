@@ -29,15 +29,15 @@
       "private": false,
       "category": "player",
       "chart": true,
-      "label@en": "Your cash",
+      "label@en": "Happiness",
       "label@fr": "Vos gains"
     },
     "risk_police": {
       "value": 0,
       "private": false,
-      "icon": "balance-scale",
+      "icon": "smile-o",
       "category": "risk",
-      "label@en": "Legal risk",
+      "label@en": "Happiness",
       "label@fr": "Risque légal"
     },
     "risk_contractors": {
@@ -45,7 +45,7 @@
       "private": false,
       "icon": "industry",
       "category": "risk",
-      "label@en": "Industry mistrust",
+      "label@en": "Connaissance du réseau",
       "label@fr": "Méfiance des industriels"
     },
     "risk_political": {
@@ -53,7 +53,7 @@
       "private": false,
       "icon": "handshake-o",
       "category": "risk",
-      "label@en": "Political rejection",
+      "label@en": "Outils pour bosser",
       "label@fr": "Risque politique"
     },
     "risk_revolving_door": {
@@ -96,6 +96,16 @@
     }
   },
   "characters": {
+    "alex":{
+      "name@en": "Alexandre Bourlier",
+      "title@en": "Schtroumph farceur",
+      "avatar": "./images/avatars/alex.jpg"
+    },
+    "sylvain":{
+      "name@en": "Sylvain Le Bon",
+      "title@en": "Associé fondateur",
+      "avatar": "./images/avatars/sylvain.jpg"
+    },
     "mayor": {
       "name@en": "Birgit Meyer",
       "name@fr": "Claudine Daviau",
@@ -147,9 +157,9 @@
     }
   },
   "years": {
-    "1993": {
+    "1": {
       "picture": "images/years/brussels.jpeg",
-      "title@en": "The Beginning",
+      "title@en": "Viens nous rencontrer",
       "title@fr": "Rideau"
     },
     "1994": {
@@ -255,26 +265,26 @@
   },
   "steps": [
     {
-      "year": 1993,
+      "year": 1,
       "texts": [
         {
-          "character": "mayor",
-          "text@en": "Hi there, welcome to City Hall!",
+          "character": "alex",
+          "text@en": "Salut, et bienvenue chez Happy Dev !",
           "text@fr": "Bonjour et bienvenue à l'hôtel de ville !"
         },
         {
-          "character": "mayor",
-          "text@en": "I hear you're the new general manager here.",
+          "character": "alex",
+          "text@en": "Je suis Alex, un des gus à l'origine du réseau.",
           "text@fr": "Vous êtes ma nouvelle directrice de cabinet"
         },
         {
-          "character": "mayor",
-          "text@en": "Some say this city has corruption issues. Don't listen to them 😒.",
+          "character": "alex",
+          "text@en": "Avec Sylvain, on a monté Happy Dev en 2015, et depuis on a une croissance de ouf...",
           "text@fr": "Certains disent que cette ville est corrompue. Ne les écoutez pas 😒."
         },
         {
-          "character": "mayor",
-          "text@en": "But be careful.",
+          "character": "sylvain",
+          "text@en": "Oui, c'est assez bizarre, mais les gens ont l'air de bien nous aimer, alors on continue.",
           "text@fr": "Mais soyez prudente."
         }
       ],
