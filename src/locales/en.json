@@ -1,9 +1,9 @@
 {
   "app": {
     "title": "Welcome aboard !",
-    "url": "https://onboarding.happy-dev.fr/",
+    "url": "https://fab1en.github.io/onboarding/",
     "description": "Pour aborder Happy Dev sereinement et efficacement",
-    "image": "https://jplusplus.github.io/the-accountant/images/share-en.png",
+    "image": "https://fab1en.github.io/onboarding/images/share.png",
     "share": {
       "tweet": {
         "via": "jplusplus_",
