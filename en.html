@@ -33,7 +33,7 @@
     <meta name="mobile-web-app-capable" content="yes">
 
     <link rel="preload" href="">
-  <link href="index-42bae8b2dc395b19f18942088d420b43.css" rel="stylesheet"></head>
+  <link href="index-27f8ad05b4d043393aa82f7a035e5f0a.css" rel="stylesheet"></head>
   <body>
     <ui-view></ui-view>
     <script>
@@ -44,5 +44,18 @@
       O.parentNode.insertBefore(o,O)}(window,document,'script','ga'));
       ga('create','UA-xxx');
     </script>
-  <script type="text/javascript" src="vendor-c0e54446083776dec628.js"></script><script type="text/javascript" src="main-c0e54446083776dec628.js"></script></body>
+	<!-- Start of Rocket.Chat Livechat Script -->
+	<script type="text/javascript">
+	(function(w, d, s, u) {
+		w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
+		var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
+		j.async = true; j.src = 'https://adekua.scalingo.io/packages/rocketchat_livechat/assets/rocket-livechat.js';
+		h.parentNode.insertBefore(j, h);
+		setTimeout(function() {
+			document.querySelector('.rocketchat-widget').classList.add('hidden');
+		}, 2000);
+	})(window, document, 'script', 'https://adekua.scalingo.io/livechat');
+	</script>
+	<!-- End of Rocket.Chat Livechat Script -->
+  <script type="text/javascript" src="vendor-d9b4ce20c24615875049.js"></script><script type="text/javascript" src="main-d9b4ce20c24615875049.js"></script></body>
 </html>

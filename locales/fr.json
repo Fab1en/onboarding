@@ -33,7 +33,8 @@
       "links": {
         "chats": "Conversations",
         "hints": "Manuels d'aide",
-        "about": "Manifeste"
+        "about": "Manifeste",
+        "rocketchat": "Parler à un humain"
       },
       "share": {
         "label": "Partager",
