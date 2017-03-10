@@ -28,6 +28,6 @@ function other() {
 
 function deploy() {
   return gulp.src('./dist/**/*').pipe(ghPages({
-    remoteUrl: 'git@github.com:Fab1en/onboarding.git'
+    remoteUrl: '.git'
   }));
 }
