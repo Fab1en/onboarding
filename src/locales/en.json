@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "Bienvenue à bord !",
+    "title": "Welcome aboard !",
     "url": "https://onboarding.happy-dev.fr/",
     "description": "Pour aborder Happy Dev sereinement et efficacement",
     "image": "https://jplusplus.github.io/the-accountant/images/share-en.png",
@@ -12,29 +12,29 @@
     }
   },
   "main": {
-    "back": "Retour au jeu",
+    "back": "Back to the game",
     "intro": {
-      "heading": "Bienvenue à bord !",
-      "meta": "— par <a href='http://happy-dev.fr' target='_blank'>Happy Dev</a>",
+      "heading": "Welcome aboard !",
+      "meta": "— by <a href='http://happy-dev.fr' target='_blank'>Happy Dev</a>",
       "description": "<p>Tu t'intéresses à Happy Dev, tu viens de découvrir ou tu tournes autour depuis longtemps sans oser entrer ?</p><p>Ce jeu est là pour te guider et t'accompagner dans ton intégration au réseau.</p>",
-      "new-game": "Commencer une nouvelle partie",
-      "continue": "Continuer"
+      "new-game": "Start a new game",
+      "continue": "Continue"
     },
     "steps": {
-      "undo": "Annuler <span class='hidden-xs-down'>la dernière action</span>",
+      "undo": "Undo <span class='hidden-xs-down'>last action</span>",
       "over": {
-        "undo": "Annuler la dernière action",
-        "again": "Recommencer",
+        "undo": "Undo last action",
+        "again": "Play again",
         "share": "You embezzled <a ui-sref='main.vars'>{{amount}} in {{years}} years</a>. Challenge your friends to make more!"
       }
     },
     "toolbar": {
-      "heading": "Bienvenue à bord !",
+      "heading": "Welcome aboard !",
       "links": {
-        "chats": "Conversations",
-        "hints": "Manuels d'aide",
-        "indicators": "Chiffres",
-        "about": "Manifeste"
+        "chats": "Chats",
+        "hints": "Handbooks",
+        "indicators": "Indicators",
+        "about": "Manifesto"
       },
       "share": {
         "label": "Share",

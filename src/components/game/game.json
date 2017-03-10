@@ -30,7 +30,7 @@
       "category": "player",
       "chart": true,
       "label@en": "Happiness",
-      "label@fr": "Vos gains"
+      "label@fr": "Happiness"
     },
     "risk_police": {
       "value": 0,
@@ -38,23 +38,23 @@
       "icon": "smile-o",
       "category": "risk",
       "label@en": "Happiness",
-      "label@fr": "Risque légal"
+      "label@fr": "Happiness"
     },
     "risk_contractors": {
       "value": 0,
       "private": false,
       "icon": "industry",
       "category": "risk",
-      "label@en": "Connaissance du réseau",
-      "label@fr": "Méfiance des industriels"
+      "label@en": "Network knwoledge",
+      "label@fr": "Connaissance du réseau"
     },
     "risk_political": {
       "value": 0,
       "private": false,
       "icon": "handshake-o",
       "category": "risk",
-      "label@en": "Outils pour bosser",
-      "label@fr": "Risque politique"
+      "label@en": "Working tools",
+      "label@fr": "Outils pour bosser"
     },
     "risk_revolving_door": {
       "value": 0,
@@ -97,13 +97,13 @@
   },
   "characters": {
     "alex":{
-      "name@en": "Alexandre Bourlier",
-      "title@en": "Schtroumph farceur",
+      "name@fr": "Alexandre Bourlier",
+      "title@fr": "Schtroumph farceur",
       "avatar": "./images/avatars/alex.jpg"
     },
     "sylvain":{
-      "name@en": "Sylvain Le Bon",
-      "title@en": "Associé fondateur",
+      "name@fr": "Sylvain Le Bon",
+      "title@fr": "Associé fondateur",
       "avatar": "./images/avatars/sylvain.jpg"
     },
     "mayor": {
@@ -159,8 +159,8 @@
   "years": {
     "1": {
       "picture": "images/years/brussels.jpeg",
-      "title@en": "Viens nous rencontrer",
-      "title@fr": "Rideau"
+      "title@en": "Come to meet us",
+      "title@fr": "Viens nous rencontrer"
     },
     "1994": {
       "picture": "images/years/riga.jpeg",
@@ -269,23 +269,27 @@
       "texts": [
         {
           "character": "alex",
-          "text@en": "Salut, et bienvenue chez Happy Dev !",
-          "text@fr": "Bonjour et bienvenue à l'hôtel de ville !"
+          "text@en": "Hi, welcome to Happy Dev !",
+          "text@fr": "Salut, et bienvenue chez Happy Dev !"
         },
         {
           "character": "alex",
-          "text@en": "Je suis Alex, un des gus à l'origine du réseau.",
-          "text@fr": "Vous êtes ma nouvelle directrice de cabinet"
+          "text@en": "I'm Alex, one of the guys at the root of the network.",
+          "text@fr": "Je suis Alex, un des gus à l'origine du réseau."
         },
         {
           "character": "alex",
-          "text@en": "Avec Sylvain, on a monté Happy Dev en 2015, et depuis on a une croissance de ouf...",
-          "text@fr": "Certains disent que cette ville est corrompue. Ne les écoutez pas 😒."
+          "text@en": "With Sylvain, we mounted Happy Dev in 2015, and since then we have a terrible growth ...",
+          "text@fr": "Avec Sylvain, on a monté Happy Dev en 2015, et depuis on a une croissance de ouf..."
         },
         {
           "character": "sylvain",
-          "text@en": "Oui, c'est assez bizarre, mais les gens ont l'air de bien nous aimer, alors on continue.",
-          "text@fr": "Mais soyez prudente."
+          "text@en": "Yes, that a little bit strange, but people like us so we continue.",
+          "text@fr": "Oui, c'est assez bizarre, mais les gens ont l'air de bien nous aimer, alors on continue."
+        },
+        {
+          "character": "sylvain",
+          "text@fr": "On commence à être un certain nombre dans le réseau (plus de 50), et ça continue. On a donc pensé qu'il fallait améliorer l'accueil des nouveaux"
         }
       ],
       "choices": [
