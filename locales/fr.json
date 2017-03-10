@@ -45,7 +45,7 @@
     },
     "hints": {
       "none": "Aucune aide disponible pour l'instant",
-      "description": "Les textes d'aides sont collectés durant le jeu. Mais tu peux retrouver <a href='_blank' href='https://drive.google.com/drive/folders/0BwOfve_BhQ3rWUNEeUE5RFN5VjA'>l'ensemble des manuels d'aide sur le drive</a>"
+      "description": "Les textes d'aides sont collectés durant le jeu. Mais tu peux retrouver <a traget='_blank' href='https://drive.google.com/drive/folders/0BwOfve_BhQ3rWUNEeUE5RFN5VjA'>l'ensemble des manuels d'aide sur le drive</a>"
     }
   }
 }
