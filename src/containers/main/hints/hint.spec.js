@@ -17,9 +17,9 @@ describe('component: main.hints', () => {
   beforeEach(() => {
     // Avoid async load of locales
     angular.module('app').config($translateProvider => {
-      $translateProvider.translations('en', {});
       $translateProvider.translations('fr', {});
-      $translateProvider.preferredLanguage('en');
+      $translateProvider.translations('en', {});
+      $translateProvider.preferredLanguage('fr');
     });
     angular.mock.module('app');
   });
