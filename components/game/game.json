@@ -26,13 +26,37 @@
     },
     "personal_account": {
       "value": 0,
-      "private": false,
+      "private": true,
       "category": "player",
       "chart": true,
-      "label@en": "Happiness",
+      "label@en": "Your cash",
       "label@fr": "Happiness"
     },
     "risk_police": {
+      "value": 0,
+      "private": true,
+     "icon": "balance-scale",
+      "category": "risk",
+      "label@en": "Legal risk",
+      "label@fr": "Risque légal"
+    },
+    "risk_contractors": {
+      "value": 0,
+      "private": true,
+      "icon": "industry",
+      "category": "risk",
+      "label@en": "Industry mistrust",
+      "label@fr": "Méfiance des industriels"
+    },
+    "risk_political": {
+      "value": 0,
+      "private": true,
+      "icon": "handshake-o",
+      "category": "risk",
+      "label@en": "Political rejection",
+      "label@fr": "Risque politique"
+    },
+    "happiness": {
       "value": 0,
       "private": false,
       "icon": "smile-o",
@@ -40,18 +64,18 @@
       "label@en": "Happiness",
       "label@fr": "Happiness"
     },
-    "risk_contractors": {
+    "knowledge": {
       "value": 0,
       "private": false,
-      "icon": "industry",
+      "icon": "snowflake-o",
       "category": "risk",
       "label@en": "Network knwoledge",
       "label@fr": "Connaissance du réseau"
     },
-    "risk_political": {
+    "tools": {
       "value": 0,
       "private": false,
-      "icon": "handshake-o",
+      "icon": "rocket",
       "category": "risk",
       "label@en": "Working tools",
       "label@fr": "Outils pour bosser"
@@ -162,7 +186,7 @@
     }
   },
   "years": {
-    "1": {
+    "1993": {
       "picture": "images/years/brussels.jpeg",
       "title@en": "Come to meet us",
       "title@fr": "Viens nous rencontrer"
@@ -270,7 +294,7 @@
   },
   "steps": [
     {
-      "year": 1,
+      "year": 1993,
       "texts": [
         {
           "character": "alex",
@@ -306,6 +330,10 @@
         },
         {
           "character": "fabien",
+          "text@fr": "T'es pas obligé de tout suivre d'un seul coup. Quand tu reviens, le jeu te propose de continuer là où tu t'étais arrêté."
+        },
+        {
+          "character": "fabien",
           "text@fr": "On y va ?"
         }
       ],
@@ -313,6 +341,9 @@
         {
           "text@en": "Go",
           "text@fr": "Commencer",
+          "var_changes": {
+            "happiness": 1
+          },
           "feedback": [
             {
               "character": "you",
@@ -321,10 +352,6 @@
             {
               "character": "fabien",
               "text@fr": "Parfait. Tu pourras suivre ta progression avec les points Happiness, Réseau et Outils sur le côté de l'écran."
-            },
-            {
-              "character": "fabien",
-              "text@fr": "T'es pas obligé de tout suivre d'un seul coup. Quand tu reviens, le jeu te propose de continuer là où tu t'étais arrêté."
             }
           ]
         }
@@ -489,8 +516,7 @@
           "text@en": "Sure",
           "text@fr": "Avec plaisir.",
           "var_changes": {
-            "personal_account": 15000,
-            "risk_police": 1
+            "happiness": 1
           },
           "feedback": [
             {
