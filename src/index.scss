@@ -52,6 +52,7 @@ $panel-width:  map-get($grid-breakpoints, md);
 @import "containers/main/hints/hints.scss";
 @import "containers/main/page/page.scss";
 @import "containers/main/vars/vars.scss";
+@import "containers/main/rocketchat/rocketchat.scss";
 @import "components/stack/stack.scss";
 @import "components/chart/chart.scss";
 

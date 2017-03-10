@@ -46,5 +46,18 @@
       O.parentNode.insertBefore(o,O)}(window,document,'script','ga'));
       ga('create','UA-xxx');
     </script>
+	<!-- Start of Rocket.Chat Livechat Script -->
+	<script type="text/javascript">
+	(function(w, d, s, u) {
+		w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
+		var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
+		j.async = true; j.src = 'https://adekua.scalingo.io/packages/rocketchat_livechat/assets/rocket-livechat.js';
+		h.parentNode.insertBefore(j, h);
+		setTimeout(function() {
+			document.querySelector('.rocketchat-widget').classList.add('hidden');
+		}, 2000);
+	})(window, document, 'script', 'https://adekua.scalingo.io/livechat');
+	</script>
+	<!-- End of Rocket.Chat Livechat Script -->
   </body>
 </html>

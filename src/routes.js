@@ -23,6 +23,10 @@ module.exports.routesConfig = function routesConfig($stateProvider, $urlRouterPr
     .state('main.vars', {
       component: 'mainVars'
     })
+    .state('main.rocketchat', {
+      component: 'mainRocketchat',
+      url: 'rocketchat'
+    })
     .state('main.hints', {
       component: 'mainHints',
       url: 'hints/:ref',
