@@ -1,23 +1,23 @@
 {
   "app": {
-    "title": "Le Bon, La Brute et Le Comptable",
-    "url": "https://jplusplus.github.io/the-accountant/fr.html",
-    "description": "Pouvez-vous gérer une ville sans céder aux sirènes de la corruption? Tentez votre chance en jouant à Le Bon, La Brute et Le Comptable!",
-    "image": "https://jplusplus.github.io/the-accountant/images/share-fr.png",
+    "title": "Bienvenue à bord !",
+    "url": "https://onboarding.happy-dev.fr/",
+    "description": "Pour aborder Happy Dev sereinement et efficacement",
+    "image": "https://jplusplus.github.io/the-accountant/images/share-en.png",
     "share": {
       "tweet": {
         "via": "jplusplus_",
-        "text": "Combien de temps tiendrez-vous face à la corruption? Tentez votre chance!"
+        "text": "Pour aborder Happy Dev sereinement et efficacement"
       }
     }
   },
   "main": {
     "back": "Revenir au jeu",
     "intro": {
-      "heading": "Le Bon, La Brute<br />et Le Comptable",
-      "meta": "— par <a href='http://jplusplus.org' target='_blank'>Journalism++</a>",
-      "description": "<p>Vous êtes la directrice de cabinet du maire d'une grande ville. Equilibrez éthique, politique et corruption pour conserver votre job.<p>Tous les exemples du jeu sont tirés de faits réels.</p>",
-      "new-game": "Nouvelle partie",
+      "heading": "Bienvenue à bord !",
+      "meta": "— par <a href='http://happy-dev.fr' target='_blank'>Happy Dev</a>",
+      "description": "<p>Tu t'intéresses à Happy Dev, tu viens de découvrir ou tu tournes autour depuis longtemps sans oser entrer ?</p><p>Ce jeu est là pour te guider et t'accompagner dans ton intégration au réseau.</p>",
+      "new-game": "Commencer une nouvelle partie",
       "continue": "Continuer"
     },
     "steps": {
@@ -29,12 +29,12 @@
       }
     },
     "toolbar": {
-      "heading": "Le Bon, La Brute<br />et Le Comptable",
+      "heading": "Bienvenue à bord !",
       "links": {
         "chats": "Conversations",
-        "hints": "Aide",
-        "indicators": "Indicateurs",
-        "about": "A propos"
+        "hints": "Manuels d'aide",
+        "indicators": "Chiffres",
+        "about": "Manifeste"
       },
       "share": {
         "label": "Partager",
@@ -45,7 +45,7 @@
     },
     "hints": {
       "none": "Aucune aide disponible pour l'instant",
-      "description": "Les textes d'aides sont collectés durant le jeu."
+      "description": "Les textes d'aides sont collectés durant le jeu. Mais tu peux retrouver <a href='_blank' href='https://drive.google.com/drive/folders/0BwOfve_BhQ3rWUNEeUE5RFN5VjA'>l'ensemble des manuels d'aide sur le drive</a>"
     }
   }
 }
